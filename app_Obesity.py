@@ -53,7 +53,7 @@ if st.session_state.tab_selected == 0:
     FAF = st.slider('FAF', 1, 10, 1)
     TUE = st.slider('TUE', 1, 10, 1)
     CALC = st.selectbox('CALC', CALC_encoder.classes_)
-    MTRANS = st.selectbox('MTRANS', SMOKE_encoder.classes_)
+    MTRANS = st.selectbox('MTRANS', MTRANS_encoder.classes_)
 
     # Create a DataFrame for the user input
     user_input = pd.DataFrame({
